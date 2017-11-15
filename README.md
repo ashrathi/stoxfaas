@@ -19,5 +19,38 @@ Date
 
 ## Assumptions ##
 - A functional [Openfaas](http://github.com/openfaas/) deployment with [CLI](http://github.com/openfaas/). A quick [Guide](https://blog.alexellis.io/first-faas-python-function/)
-- 
+
+## Deploying **stoxfaas** on OPENFAAS
+
+### Getting stoxfaas
+
+``git clone https://github.com/ashrathi/stoxfaas.git``
+
+### Tailor it for your environment
+
+#### Gateway
+The code assumes the openfaas API gateway to be http://localhost:8080.  <br>
+You can change this to required values in by updating the `gateway` value `stoxfaas.yml`
+
+#### Docker Image Name
+For multi-node deployments, update the `image` name in `stoxfaas.yml` to point to appropriate private registry or docker hub repositories
+
+### Building stoxfaas
+
+````
+cd stoxfaas
+faas-cli build -f stoxfaas.yml
+faas-cli push -f stoxfaas.yml
+faas-cli deploy -f stoxfaas.yml
+````
+
+After deployment, it may take a few minutes for the service to be available depending on the amount of time it takes for the docker image download. Please be patient!
+
+### Testing stoxfaas
+
+````
+curl http://gatewayip:8080/function/stoxfaas -d "IBM"
+curl http://gatewayip:8080/function/stoxfaas -d "AAPL"
+curl http://gatewayip:8080/function/stoxfaas -d "GOOG"
+```
 
