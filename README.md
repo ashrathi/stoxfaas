@@ -21,7 +21,6 @@ Date
 **Ashish Rathi** <br>
 *Senior Architect* <br>
 [Accelerite](https://accelerite.com/) <br>
-<br>
 
 <img src="https://pbs.twimg.com/profile_images/448567753041907712/Kg-Vptrq_400x400.png" width="48">
 
