@@ -1,7 +1,7 @@
 # stoxfaas 
 ## A OPENFAAS Serverless function for fetching stock prices
 
-A sample function to demonstrate fetching stock prices from [Yahoo! finance](https://in.finance.yahoo.com/) given a NASDAQ stock symbol.
+A sample function to demonstrate fetching stock prices from [Yahoo! finance](https://finance.yahoo.com/quote/USA/) given a NASDAQ stock symbol.
 The functions fetches the current and historical stock prices for the requested symbol for all trading sessions within the last 7 days.
 
 Example:
@@ -54,3 +54,13 @@ curl http://gatewayip:8080/function/stoxfaas -d "AAPL"
 curl http://gatewayip:8080/function/stoxfaas -d "GOOG"
 ````
 
+## Maintainer ##
+
+**Ashish Rathi** <br>
+*Senior Architect* <br>
+[Accelerite](https://accelerite.com/) <br>
+
+<img src="https://pbs.twimg.com/profile_images/448567753041907712/Kg-Vptrq_400x400.png" width="48">
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40ashrathi)](https://twitter.com/ashrathi) <br>
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40accelerite)](https://twitter.com/accelerite)
