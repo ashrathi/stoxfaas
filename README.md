@@ -22,6 +22,9 @@ Date
 *Senior Architect* <br>
 [Accelerite](https://accelerite.com/) <br>
 <br>
+
+<img src="https://pbs.twimg.com/profile_images/448567753041907712/Kg-Vptrq_400x400.png" width="48">
+
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40ashrathi)](https://twitter.com/ashrathi) <br>
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40accelerite)](https://twitter.com/accelerite)
 
