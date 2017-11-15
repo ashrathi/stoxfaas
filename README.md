@@ -39,9 +39,9 @@ For multi-node deployments, update the `image` name in `stoxfaas.yml` to point t
 
 ````
 cd stoxfaas
-faas-cli build -f stoxfaas.yml
-faas-cli push -f stoxfaas.yml
-faas-cli deploy -f stoxfaas.yml
+faas-cli build -f stack.yml
+faas-cli push -f stack.yml
+faas-cli deploy -f stack.yml
 ````
 
 After deployment, it may take a few minutes for the service to be available depending on the amount of time it takes for the docker image download. Please be patient!
