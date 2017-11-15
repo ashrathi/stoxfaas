@@ -16,17 +16,6 @@ Date
 2017-11-13  148.880005  149.000000  147.919998  148.399994  148.399994  5085300
 2017-11-14  147.949997  148.970001  147.490005  148.889999  148.889999  3691900
 ```
-## Maintainer ##
-
-**Ashish Rathi** <br>
-*Senior Architect* <br>
-[Accelerite](https://accelerite.com/) <br>
-
-<img src="https://pbs.twimg.com/profile_images/448567753041907712/Kg-Vptrq_400x400.png" width="48">
-
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40ashrathi)](https://twitter.com/ashrathi) <br>
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40accelerite)](https://twitter.com/accelerite)
-
 
 ## Assumptions ##
 - A functional [Openfaas](http://github.com/openfaas/) deployment with [CLI](http://github.com/openfaas/). A quick [Guide](https://blog.alexellis.io/first-faas-python-function/)
@@ -65,3 +54,13 @@ curl http://gatewayip:8080/function/stoxfaas -d "AAPL"
 curl http://gatewayip:8080/function/stoxfaas -d "GOOG"
 ````
 
+## Maintainer ##
+
+**Ashish Rathi** <br>
+*Senior Architect* <br>
+[Accelerite](https://accelerite.com/) <br>
+
+<img src="https://pbs.twimg.com/profile_images/448567753041907712/Kg-Vptrq_400x400.png" width="48">
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40ashrathi)](https://twitter.com/ashrathi) <br>
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40accelerite)](https://twitter.com/accelerite)
