@@ -21,8 +21,6 @@ RUN touch ./function/__init__.py
 WORKDIR /root/
 
 ENV fprocess="python index.py"
-ENV http_proxy="http://10.44.233.217:3128"
-ENV https_proxy="http://10.44.233.217:3128"
 
 HEALTHCHECK --interval=1s CMD [ -e /tmp/.lock ] || exit 1
 
