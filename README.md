@@ -52,5 +52,5 @@ After deployment, it may take a few minutes for the service to be available depe
 curl http://gatewayip:8080/function/stoxfaas -d "IBM"
 curl http://gatewayip:8080/function/stoxfaas -d "AAPL"
 curl http://gatewayip:8080/function/stoxfaas -d "GOOG"
-```
+````
 
