@@ -1,5 +1,5 @@
 # stoxfaas 
-## A OPENFAAS Serverless function for fetching stock prices
+## An OPENFAAS Serverless function for fetching stock prices
 
 A sample function to demonstrate fetching stock prices from [Yahoo! finance](https://finance.yahoo.com/quote/USA/) given a NASDAQ stock symbol.
 The functions fetches the current and historical stock prices for the requested symbol for all trading sessions within the last 7 days.
